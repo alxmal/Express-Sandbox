@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1= pageTitle
+    ul
+        each genre, i in genres
+            li= genre.name
+block append scripts
+    script(src='/genres.js')

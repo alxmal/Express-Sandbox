@@ -1,0 +1,4 @@
+{
+    "name": "Educational Nodejs Project – Production Mode",
+    "port": "process.env.NODE_ENV"
+}

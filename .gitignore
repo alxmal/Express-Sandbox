@@ -1,0 +1,51 @@
+# files
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+*.orig
+*.bak
+.DS_Store
+Thumbs.db
+.bash_logout
+.bashrc
+.profile
+
+build/
+
+# logs and backups
+*.dt
+*.log
+*.log.old
+!/backups/*.sql
+npm-debug.log
+
+# archives
+*.tar.gz
+*.tar
+*.zip
+*.7z
+*.cab
+*.exe
+*.rar
+*.pak
+*.zipx
+
+# media
+*.psd
+*.pdf
+*.doc
+*.doxc
+*.xls
+*.xlsx
+*.ppt
+*.pttx
+
+# managers
+bower_components/
+node_modules/
+package-lock.json
+yarn.lock
+
+# config
+# config/env.js
